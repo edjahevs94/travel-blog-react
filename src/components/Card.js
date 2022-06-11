@@ -1,7 +1,7 @@
 import React from "react"
 import pointer from "../images/location.png"
 
-export default function Card(props) {
+ const Card=(props)=> {
     return(
         <div className="card">
             <img className="card--img" src={props.item.imageUrl} alt="card-foto" />
@@ -23,3 +23,4 @@ export default function Card(props) {
         </div>
     )
 }
+export default Card

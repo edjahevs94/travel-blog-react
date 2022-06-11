@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../images/globe-icon-white-8.jpg"
 
-export default function Navbar() {
+const Navbar=()=> {
     return(
         <nav className="navbar">
             <img src={logo} className="nav--logo" alt="logo" />
@@ -9,3 +9,4 @@ export default function Navbar() {
         </nav>
     )
 }
+export default Navbar
